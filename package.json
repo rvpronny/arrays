@@ -1,0 +1,20 @@
+{
+  "name": "aula01",
+  "version": "1.0.0",
+  "description": "Primeiro Projeto com TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "compilar": "tsc --build --clean && tsc",
+    "executar": "node ./dist/index.js",
+    "run": "npm run compilar && cls && npm run executar",
+    "rodar": "nodemon --exec ts-node src/index.ts"
+  },
+  "author": "Ronny",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.0.3"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  }
+}
